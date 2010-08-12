@@ -6,6 +6,7 @@ from mpttadmin import MpttAdmin
 
 class BaseTree(models.Model):
     user = models.ForeignKey(User, unique=True)
+    #parent = models.ForeignKey(User, unique=True)
     parent = models.ForeignKey('self', null=True, blank=True, related_name='children')
 
 mptt.register(BaseTree)

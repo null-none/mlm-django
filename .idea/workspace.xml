@@ -24,46 +24,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.py">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Marketing/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="72" column="61" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="49" selection-start="522" selection-end="522" vertical-scroll-proportion="0.37129486">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Accounts/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Accounts/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="-4.08">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Accounts/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="28" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0">
+            <state line="20" column="55" selection-start="592" selection-end="592" vertical-scroll-proportion="0.42433697">
               <folding />
             </state>
           </provider>
@@ -85,7 +49,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/information_of_users/models.py" />
-        <option value="$PROJECT_DIR$/Personalization/models.py" />
         <option value="$PROJECT_DIR$/registration/views.py" />
         <option value="$PROJECT_DIR$/news/models.py" />
         <option value="$PROJECT_DIR$/urls.py" />
@@ -93,13 +56,14 @@
         <option value="$PROJECT_DIR$/News/models.py" />
         <option value="$PROJECT_DIR$/Products/models.py" />
         <option value="$PROJECT_DIR$/Marketing/admin" />
-        <option value="$PROJECT_DIR$/Marketing/models.py" />
         <option value="$PROJECT_DIR$/News/templates/base.html" />
         <option value="$PROJECT_DIR$/settings.py" />
         <option value="$PROJECT_DIR$/Accounts/urls.py" />
         <option value="$PROJECT_DIR$/Accounts/templates/register.html" />
         <option value="$PROJECT_DIR$/Accounts/views.py" />
         <option value="$PROJECT_DIR$/News/views.py" />
+        <option value="$PROJECT_DIR$/Personalization/models.py" />
+        <option value="$PROJECT_DIR$/Marketing/models.py" />
       </list>
     </option>
   </component>
@@ -129,8 +93,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -149,8 +111,52 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Personalization" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="News" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Marketing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -202,15 +208,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <module name="" />
-      <option name="port" value="8080" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="py.test" factoryName="py.test">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -221,6 +218,15 @@
       <module name="sm" />
       <option name="testToRun" value="" />
       <option name="keywords" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <module name="" />
+      <option name="port" value="8080" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="sm" type="Python.DjangoServer" factoryName="Django server">
@@ -337,13 +343,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Marketing/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="31" selection-start="528" selection-end="528" vertical-scroll-proportion="0.4093098">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Marketing/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -351,35 +350,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Products/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="79" selection-start="413" selection-end="413" vertical-scroll-proportion="0.31825274">
-          <folding />
-        </state>
+        <state line="13" column="79" selection-start="413" selection-end="413" vertical-scroll-proportion="0.31825274" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Personalization/models.py">
+    <entry file="file://$PROJECT_DIR$/Accounts/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="48" selection-start="199" selection-end="221" vertical-scroll-proportion="0.079563186">
+        <state line="3" column="26" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Accounts/templates/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="-4.08">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Accounts/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+        <state line="6" column="17" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -391,9 +379,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
+    <entry file="file://$PROJECT_DIR$/News/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="61" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Personalization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="49" selection-start="495" selection-end="495" vertical-scroll-proportion="0.31825274">
           <folding />
         </state>
       </provider>
@@ -401,6 +396,20 @@
     <entry file="file://$PROJECT_DIR$/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="49" selection-start="522" selection-end="522" vertical-scroll-proportion="0.37129486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="61" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.02652106">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Marketing/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="55" selection-start="592" selection-end="592" vertical-scroll-proportion="0.42433697">
           <folding />
         </state>
       </provider>

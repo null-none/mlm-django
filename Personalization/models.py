@@ -7,4 +7,7 @@ class UserProfile(models.Model):
     timezone = models.CharField(max_length=50, default='Russia/Moscow')
     phone = models.CharField(max_length=20, default='+7')
 
-admin.site.register(UserProfile)
+class UserProfileAdmin(admin.ModelAdmin):
+    list_display = ('user', 'timezone', 'phone')
+
+admin.site.register(UserProfile, UserProfileAdmin)

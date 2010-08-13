@@ -27,7 +27,16 @@
       <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Marketing/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="55" selection-start="592" selection-end="592" vertical-scroll-proportion="0.42433697">
+            <state line="12" column="9" selection-start="387" selection-end="387" vertical-scroll-proportion="0.21216848">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://C:/Python26/Lib/site-packages/mptt/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="39" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -328,11 +337,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Products/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Personalization/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -407,9 +411,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../.PyCharm10/system/python_stubs/-891257481/__builtin__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="549" column="4" selection-start="16137" selection-end="16137" vertical-scroll-proportion="0.33280253">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python26/Lib/site-packages/mptt/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="56" selection-start="2454" selection-end="2454" vertical-scroll-proportion="0.4648986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python26/Lib/site-packages/mptt/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="39" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Marketing/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="55" selection-start="592" selection-end="592" vertical-scroll-proportion="0.42433697">
+        <state line="12" column="9" selection-start="387" selection-end="387" vertical-scroll-proportion="0.21216848">
           <folding />
         </state>
       </provider>

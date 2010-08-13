@@ -4,6 +4,7 @@ from django.shortcuts import render_to_response
 from django.contrib.auth.forms import UserCreationForm
 from django import forms
 from Personalization.models import UserProfile
+from Marketing.models import BaseTree
 
 class ContactForm(forms.Form):
     subject = forms.CharField(max_length=100)
@@ -37,6 +38,12 @@ def register(request):
         new_user = form.save(data)
         profile = UserProfile.objects.create(user = new_user)
         profile.save()
+        node1=BaseTree()
+        node1.user=new_user
+        node1.save()
+#        for nodes in BaseTree.objects.all():
+#            pp = nodes.user.get_profile()
+#            print pp.phone
         auth.logout(request)
         return HttpResponseRedirect("/accounts/login/")
     else:

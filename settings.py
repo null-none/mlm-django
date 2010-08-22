@@ -109,3 +109,7 @@ INSTALLED_APPS = (
 
 AUTH_PROFILE_MODULE = 'Personalization.UserProfile'
 
+TREE_TYPES = (
+    ('Marketing.BinomTree', 'Binom'),
+)
+

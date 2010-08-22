@@ -1,13 +1,18 @@
 from django.contrib.auth.models import User
 from utilities import instantiate
 from Marketing.models import MarketingRates
+from Banking.business import Accountant
+from datetime import datetime
 
 class MarketingCalculator(object):
-    def __init__(self, user, marketing_plan):
+    def __init__(self, user, marketing_plan, date_from, date_to):
         self.user = user
         self.marketing_plan = marketing_plan
         self.marketing_node = instantiate(marketing_plan).filter(user=user)
         self.marketing_rates = MarketingRates.objects.filter(marketing_tree=marketing_plan).order_by('generation')
+        self.accountant = Accountant(marketing_plan)
+        self.date_from = date_from
+        self.date_to = date_to
 
     def calculate_profit(self):
         return __get_generation_profit(self.marketing_node, 0)
@@ -26,5 +31,5 @@ class MarketingCalculator(object):
 
     # stub
     def get_cashflow(self, child):
-        return 2.0
+        return self.accountant.get_sales(child.user, self.date_from, self.date_to)
 

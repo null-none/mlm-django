@@ -10,7 +10,6 @@ class BaseTree(models.Model):
     def __unicode__(self):
         return self.user.username
 
-
 class BinaryTree(models.Model):
     user = models.ForeignKey(User, unique=True)
     parent = models.ForeignKey('self', null=True, blank=True, related_name='children')
@@ -18,29 +17,29 @@ class BinaryTree(models.Model):
         return self.user.username
     def binary_insert_at(self, target, position='first-child', commit=False):
         try:
-            descendant_count = target.get_descendant_count()
+            children_count = target.get_chilren.count()
         except:
-            descendant_count = 0
-        print 'amount of children ...', descendant_count
-        if descendant_count<2:
+            children_count = 0
+        print 'amount of children ...', children_count
+        if children_count<2:
             self._tree_manager.insert_node(self, target, position, commit)
         else:
             print 'exception insert_at'
-            print 'amount of children ...', descendant_count
+            print 'amount of children ...', children_count
             # exception is generated
     def binary_move_to(self, target, position='first-child'):
         try:
-            descendant_count = target.get_descendant_count()
+            children_count = target.get_chilren.count()
         except:
-            descendant_count = 0
-        print 'amount of children ...', descendant_count
-        if descendant_count<2:
+            children_count = 0
+        print 'amount of children ...', children_count
+        if children_count < 2:
             self._tree_manager.move_node(self, target, position)
         else:
+            self._tree_manager.move_node(self, None, position)
             print 'exception move_to'
-            print 'amount of children ...', descendant_count
+            print 'amount of children ...', children_count
             # exception is generated
-
 
 class LevelTree(models.Model):
     user = models.ForeignKey(User, unique=True)
@@ -51,14 +50,12 @@ class LevelTree(models.Model):
         print 'good owerride'
         self._tree_manager.insert_node(self, target, position, commit)
 
-
 mptt.register(BaseTree)
 mptt.register(BinaryTree)
 mptt.register(LevelTree)
 setattr(BinaryTree, 'insert_at', BinaryTree.binary_insert_at)
 setattr(BinaryTree, 'move_to', BinaryTree.binary_move_to)
 setattr(LevelTree, 'insert_at', LevelTree.level_insert_at)
-
 
 class BaseTreeAdmin(MpttAdmin):
     tree_title_field = 'name'
@@ -77,7 +74,6 @@ class LevelTreeAdmin(MpttAdmin):
     tree_display = ('user',)
     class Meta:
         model = LevelTree
-
 
 admin.site.register(BaseTree, BaseTreeAdmin)
 admin.site.register(BinaryTree, BinaryTreeAdmin)

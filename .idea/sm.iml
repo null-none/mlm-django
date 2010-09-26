@@ -4,7 +4,7 @@
     <facet type="django" name="Django">
       <configuration>
         <option name="rootFolder" value="$MODULE_DIR$" />
-        <option name="templatesFolder" value="" />
+        <option name="templatesFolders" value="" />
         <option name="settingsModule" value="sm" />
       </configuration>
     </facet>

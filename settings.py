@@ -105,11 +105,14 @@ INSTALLED_APPS = (
     'Personalization',
     'Products',
     'Marketing',
+    'Banking',
 )
 
 AUTH_PROFILE_MODULE = 'Personalization.UserProfile'
 
 TREE_TYPES = (
-    ('Marketing.BinomTree', 'Binom'),
+    ('Marketing.BaseTree', 'BaseTree'),
+    ('Marketing.BinaryTree', 'BinaryTree'),
+    ('Marketing.LevelTree', 'LevelTree'),
 )
 

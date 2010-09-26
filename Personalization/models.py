@@ -9,6 +9,6 @@ class UserProfile(models.Model):
     deposit = models.FloatField(default=0)
 
 class UserProfileAdmin(admin.ModelAdmin):
-    list_display = ('user', 'timezone', 'phone')
+    list_display = ('user', 'timezone', 'phone', 'deposit')
 
 admin.site.register(UserProfile, UserProfileAdmin)
